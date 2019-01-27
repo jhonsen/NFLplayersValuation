@@ -38,11 +38,7 @@ Each football player that gets drafted into the NFL gets a 4-year contract deal.
 
   - **Salaries** dataframe - is players' base salaries for the last 15 years, 2003-2018. Each year's salary is also adjusted by the annual inflation [rate](https://www.usinflationcalculator.com/inflation/historical-inflation-rates/), to reflect its equivalent value in 2018.
 
-- The final dataset is obtained by merging **Players' stats** dataframes with **Salaries**, which respectively reflect *features* and *target* for machine learning (**Figure 2**). 
-
-  ​	![Players' stats](./concat2.png)
-
-  To join the 45 dataframes (i.e., 15 df's per position) into a single table, the performance stats for QB, RB, and WR must be engineered to reflect 1 comparable metric. For this reason, a new feature is created for each year of performance, based on weighted average of yards and touchdowns (*see* Feature engineering below).
+- The final dataset is obtained by merging **Players' stats** dataframes with **Salaries**, which respectively reflect *features* and *target* for machine learning (**Figure 1**). To join the 45 dataframes (i.e., 15 df's per position) into a single table, the performance stats for QB, RB, and WR must be engineered to reflect 1 comparable metric. For this reason, a new feature is created for each year of performance, based on weighted average of yards and touchdowns (*see* Feature engineering below).
 
 - After webscraping and preliminary data-cleaning, all datasets are combined into one dataframe. A step-by-step procedure for this (gruesome) collecting- and cleaning process is described in [**Workflow.md**](../codes/Workflow.md) and codes are saved in [**ScrapeProcFunc.py**](../codes/ScrapeProcFunc.py)   
 
