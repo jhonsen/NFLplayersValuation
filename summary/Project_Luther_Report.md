@@ -34,7 +34,7 @@ Each football player that gets drafted into the NFL gets a 4-year contract deal.
 - The final dataset used to train ML models is obtained by merging two sets of information: (1) **Players' stats** and (2) **Salaries**. Details on dataframe construction are described below:
   - **Players' stats** dataframes - is a concatenation of NFL-Combine results and players' performance statistics (i.e., Yards & TDs) for the first 4 years of their NFL career.  For instance, the (initial) set of information for rookie players that begin in year 2012 is collected from the NFL-Combine 2012 [event](https://www.pro-football-reference.com/draft/2012-combine.htm).  This dataframe contains players' names, heights, weights, running speed, draft status and draft round. Then, this information is joined with performance stats of the corresponding players from years: [2012](https://www.pro-football-reference.com/years/2012/passing.htm), [2013](https://www.pro-football-reference.com/years/2013/passing.htm), [2014](https://www.pro-football-reference.com/years/2014/passing.htm), and [2015](https://www.pro-football-reference.com/years/2015/passing.htm). **Figure 1** illustrates the workflow of data acquisition for a single classof players that enter the NFL in year 2012. This procedure is applied to each of the 3 different positions (QB, RB, WR), resulting in 3 dataframes for each rookie year. Additionally, this step is carried out over the subsequent 15 rookie classes (between 2000 & 2014). As a result, a total of 45 dataframes are constructed, i.e., 15 dataframes for each position. These dataframes are saved in the form of Python lists. 
 
-    ![Players stats](./concat1.png)   
+    ![Players stats](./concat1.png)   Figure 1. Workflow of data acquisition for a single class of QB-players entering NFL in 2012   
 
   - **Salaries** dataframe - is players' base salaries for the last 15 years, 2003-2018. Each year's salary is also adjusted by the annual inflation [rate](https://www.usinflationcalculator.com/inflation/historical-inflation-rates/), to reflect its equivalent value in 2018.
 
@@ -68,13 +68,20 @@ Each football player that gets drafted into the NFL gets a 4-year contract deal.
 
 - A pipeline that runs feature scaling and 10-fold CV was setup to run `LinearRegression`, `Ridge` and `Lasso` (with the best alphas), `ElasticNet`, `RandomForestRegressor`, `DecisionTreeRegressor`, `BaggingRegressor` 
 
-- With the 10-fold CV, linear regression models output similar RMSE values ~ 0.61 (r2 of ~0.21), whereas tree-based regressors performed worse, with RMSE values that range between ~0.64 and ~0.85 (r2 <0.12). The simplest model (linear regression without regularization) was used to predict the test set.
+- With the 10-fold CV, linear regression models output similar RMSE values ~ 0.61 (r2 of ~0.21) (**Figure 2**), whereas tree-based regressors performed worse, with RMSE values that range between ~0.64 and ~0.85 (r2 <0.12). The simplest model (linear regression without regularization) was used to predict the test set.
+
+  ![Fig2](../codes/figures/Alg_comparison_RMSE.png) **Figure 2**. Ten-fold cross-validated-algorithm comparison based on RMSE of training set
 
     
 
 ### Results
 
-- Linear regression model can predict players' salaries on the fourth year of their career, with an error of ~1 million USD.    
+- Linear regression model can predict players' salaries on the fourth year of their career, with an error of ~1 million USD (**Figure 3**).
+
+  ![Fig3](../codes/figures/ytest_ypred_density.png) 
+
+  **Figure 3**. Predicted and true target values in the test set     
+
 - Multivariate linear regression model performs the best among other models (tree-based regressors).
 
   
