@@ -528,7 +528,7 @@ def addYearsTD(list_YdsTDdfs, yrStart,yrEnd, n=4):
         series1234 = [list_YdsTDdfs[k] for k in range(ind, ind+n)]
         df_agg1234 = reduce(lambda x,y: pd.merge(x,y, on='Player',how='outer'), series1234)
         list_df_agg1234.append(df_agg1234)
-        print('4yr-period {}-{} has {}'.format(yrStart, yrEnd, df_agg1234.shape[0]))
+        print('4yr-period {}-{} has {}'.format(int(yrStart)+ind, int(yrStart)+(n-1)+ind, df_agg1234.shape[0]))
     return list_df_agg1234
 
 

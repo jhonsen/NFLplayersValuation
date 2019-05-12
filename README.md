@@ -16,7 +16,7 @@
 
 Estimating the value of football players in terms of $$$ is an important task for NFL team managers.
 
-Each football player that gets drafted into the NFL gets a 4-year contract deal. As it gets closer to the end of this contract, players and managers (owners) have to renegotiate contract extensions. In such a case, **how much should an NFL player be paid, given his 4-years worth of performance?** 
+Each football player that gets drafted into the NFL gets a 4-year contract deal. As it gets closer to the end of this contract, players and managers (owners) have to renegotiate contract extensions. In such a case, **what is the fvalue of an NFL player on his 4th-year in the NFL?** 
 
 **Project Goal:**
 
@@ -40,7 +40,7 @@ Photo [source](https://youtu.be/-dDVmTddM_k)
 **Code**, **notebooks**, and **Summary**
 - [Project_Luther_Report.md](./summary/Project_Luther_Report.md) - detailed explanations of data acquisition, cleaning and modeling
 - [Workflow.md](./codes/Workflow.md) - a step-by-step procedure to scrape data and converting them to dataframe
-  - [Clean_Workflow-4th.ipynb](./codes/Clean_Workflow-4th.ipynb) - notebook describing the process of web-scraping, converting data into datarames and data pre-processing  
+  - [Step1_DataAcquisition.ipynb](./codes/Step1_DataAcquisition.ipynb) - notebook describing the process of web-scraping, converting data into datarames and data pre-processing  
   - [ScrapeProcFunc.py](./codes/ScrapeProcFunc.py) - a library of python functions to webscrape player's information (statistics and salaries), to convert HTML into dataframes, and perform data-wrangling prior to machine learning
 - [EDA-4th.ipynb](./codes/EDA-4th.ipynb) - initial exploratory data analysis of the wide-receivers 
 - [Engineering-and-modeling-4th.ipynb](./codes/Engineering-Modeling-4th.ipynb) - notebook describing feature engineering and predictive modeling
