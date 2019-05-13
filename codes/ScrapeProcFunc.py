@@ -678,3 +678,41 @@ def plot_learning_curves(model, X_train, X_val, y_train, y_val):
     plt.ylabel('RMSE')
     plt.xlabel('Training set size')
     plt.title('LEARNING CURVES')
+
+# Function to adjust salaries based on inflation rates with respect to 2018 $$ value
+def includeInflation(df, yr):
+    '''function returns the same dataframe of salaries, with inflation rate applied to each year
+    Input:
+        df - the dataframe containing salaries information
+             Inflastion rate is obtained from https://www.usinflationcalculator.com/inflation/historical-inflation-rates/
+             At the moment, these values are hard-coded for 2000-2018. Everything is converted to the value in 2018.
+        yr - the first year in df, e.g., 2003
+    '''
+    InflationRate = [1.381, 1.353, 1.337, 1.314, 1.287, 1.253, 1.221, 1.193, 1.155, 1.159, 1.143, 1.111, 1.09, 1.075, 1.059, 1.058, 1.045, 1.024, 1]
+    diff= yr - 2000
+    numcol = df.shape[1]-1
+    for col in range(numcol-1):
+        df.iloc[:,col+1] = df.iloc[:,col+1].astype(float)
+        df.iloc[:,col+1] = df.iloc[:,col+1] * InflationRate[col+diff]
+
+    return df
+
+# This function removes -th, -nd, -rd, from draft round
+def removeTh(string):
+    '''function removes the th, st, and rd at the end of string
+    Input:
+        string
+
+    '''
+    if string == '':
+        return 0
+    else:
+        listTh = ['th','st','rd', 'nd']
+        string = string.strip()
+        if string[-2:] in listTh:
+            newstr = string[:-2]
+            newstr = removeTh(newstr)
+        else:
+            newstr = string
+
+    return int(newstr)

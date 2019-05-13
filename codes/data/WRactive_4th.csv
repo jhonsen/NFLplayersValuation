@@ -66,7 +66,7 @@
 285,Michael Robinson,73,San Francisco 49ers ,Yes,4,227,4.57,47,0,73,0,202,0,24,0,620065.0
 288,Brad Smith,74,New York Jets ,Yes,4,213,4.46,61,0,325,2,64,0,63,0,620065.0
 290,Maurice Stovall,76,Tampa Bay Buccaneers ,Yes,3,217,4.57,102,0,86,1,25,0,366,1,620065.0
-291,Delanie Walker,73,,No,0,240,4.49,30,0,174,1,155,1,233,0,620065.0
+291,Delanie Walker,73,San Francisco 49ers ,Yes,6,240,4.49,30,0,174,1,155,1,233,0,620065.0
 292,Todd Watkins,74,Arizona Cardinals ,Yes,7,202,4.4,0,0,0,0,0,0,90,0,446215.0
 295,Demetrius Williams,74,Baltimore Ravens ,Yes,4,197,4.52,396,2,290,0,180,1,142,1,1170590.0
 301,Dwayne Bowe,74,Kansas City Chiefs ,Yes,1,221,4.51,995,5,1022,7,589,4,1162,15,685800.0
@@ -150,23 +150,23 @@
 485,Kyle Williams,70,San Francisco 49ers ,Yes,6,188,4.4,8,0,241,3,212,1,113,0,677250.0
 486,Mike Williams,73,Tampa Bay Buccaneers ,Yes,4,221,4.53,964,11,771,3,996,9,216,2,7740000.0
 487,Stephen Williams,76,,No,0,210,4.5,101,0,0,0,0,0,0,0,596625.0
-492,Vincent Brown,71,San Diego Chargers ,Yes,3,187,4.68,329,2,0,0,472,1,118,0,1020176.0009999999
-495,Randall Cobb,70,Green Bay Packers ,Yes,2,191,4.46,375,1,954,8,433,4,1287,12,860594.232
-497,Tandon Doss,74,Baltimore Ravens ,Yes,4,201,4.62,0,0,123,1,305,0,0,0,683055.0
-499,A.J. Green,76,Cincinnati Bengals ,Yes,1,211,4.48,1057,7,1350,11,1426,11,1041,6,3240263.601
-502,Leonard Hankerson,73,Washington Redskins ,Yes,3,209,4.4,163,0,543,3,375,3,0,0,683055.0
-503,Dwayne Harris,70,Dallas Cowboys ,Yes,6,203,4.53,0,0,222,1,80,2,116,0,683055.0
-504,Andre Holmes,76,,No,0,210,4.51,0,0,11,0,431,1,693,4,683055.0
-506,Jerrel Jernigan,69,New York Giants ,Yes,3,185,4.46,0,0,22,0,329,2,40,0,683055.0
-508,Julio Jones,75,Atlanta Falcons ,Yes,1,220,4.34,959,8,1198,10,580,2,1593,6,2734205.625
-509,Jeremy Kerley,69,New York Jets ,Yes,5,189,4.56,314,1,827,2,523,3,409,1,1515429.0
-510,Greg Little,74,Cleveland Browns ,Yes,2,231,4.51,709,2,647,4,465,2,69,0,683055.0
-511,Ricardo Lockette,74,,No,0,211,4.34,105,1,0,0,82,0,195,2,603630.0
-512,Jeff Maehl,73,,No,0,190,4.56,0,0,0,0,67,1,46,0,603630.0
-513,Denarius Moore,72,Oakland Raiders ,Yes,5,194,4.43,618,5,741,7,695,5,115,0,1515429.0
-517,Niles Paul,73,Washington Redskins ,Yes,5,224,4.45,25,0,152,1,51,0,507,1,683055.0
-521,Greg Salas,73,St. Louis Rams ,Yes,4,210,4.53,264,0,0,0,143,0,167,0,683055.0
-524,Dane Sanzenbacher,71,,No,0,182,4.56,276,3,7,0,61,0,105,0,1006050.0
-525,Cecil Shorts,72,Jacksonville Jaguars ,Yes,4,205,4.5,30,1,979,7,777,3,557,1,1515429.0
-526,Keith Smith,74,,No,0,214,4.65,0,0,0,0,0,0,0,0,444780.0
-527,Torrey Smith,73,Baltimore Ravens ,Yes,2,204,4.41,841,7,855,8,1128,4,767,11,886560.9119999999
+492,Vincent Brown,71,San Diego Chargers ,Yes,3,187,4.68,329,2,0,0,472,1,118,0,963339.0
+495,Randall Cobb,70,Green Bay Packers ,Yes,2,191,4.46,375,1,954,8,433,4,1287,12,812648.0
+497,Tandon Doss,74,Baltimore Ravens ,Yes,4,201,4.62,0,0,123,1,305,0,0,0,645000.0
+499,A.J. Green,76,Cincinnati Bengals ,Yes,1,211,4.48,1057,7,1350,11,1426,11,1041,6,3059739.0
+502,Leonard Hankerson,73,Washington Redskins ,Yes,3,209,4.4,163,0,543,3,375,3,0,0,645000.0
+503,Dwayne Harris,70,Dallas Cowboys ,Yes,6,203,4.53,0,0,222,1,80,2,116,0,645000.0
+504,Andre Holmes,76,,No,0,210,4.51,0,0,11,0,431,1,693,4,645000.0
+506,Jerrel Jernigan,69,New York Giants ,Yes,3,185,4.46,0,0,22,0,329,2,40,0,645000.0
+508,Julio Jones,75,Atlanta Falcons ,Yes,1,220,4.34,959,8,1198,10,580,2,1593,6,2581875.0
+509,Jeremy Kerley,69,New York Jets ,Yes,5,189,4.56,314,1,827,2,523,3,409,1,1431000.0
+510,Greg Little,74,Cleveland Browns ,Yes,2,231,4.51,709,2,647,4,465,2,69,0,645000.0
+511,Ricardo Lockette,74,,No,0,211,4.34,105,1,0,0,82,0,195,2,570000.0
+512,Jeff Maehl,73,,No,0,190,4.56,0,0,0,0,67,1,46,0,570000.0
+513,Denarius Moore,72,Oakland Raiders ,Yes,5,194,4.43,618,5,741,7,695,5,115,0,1431000.0
+517,Niles Paul,73,Washington Redskins ,Yes,5,224,4.45,25,0,152,1,51,0,507,1,645000.0
+521,Greg Salas,73,St. Louis Rams ,Yes,4,210,4.53,264,0,0,0,143,0,167,0,645000.0
+524,Dane Sanzenbacher,71,,No,0,182,4.56,276,3,7,0,61,0,105,0,950000.0
+525,Cecil Shorts,72,Jacksonville Jaguars ,Yes,4,205,4.5,30,1,979,7,777,3,557,1,1431000.0
+526,Keith Smith,74,,No,0,214,4.65,0,0,0,0,0,0,0,0,420000.0
+527,Torrey Smith,73,Baltimore Ravens ,Yes,2,204,4.41,841,7,855,8,1128,4,767,11,837168.0
