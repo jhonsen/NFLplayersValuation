@@ -78,7 +78,7 @@ Each football player that gets drafted into the NFL gets a 4-year contract deal.
 
 - Linear regression model can predict players' salaries on the fourth year of their career, with an error of ~1 million USD (**Figure 3**).
 
-  ![Fig3](../codes/figures/ytest_ypred_density.png) 
+  ![Fig3](../codes/figures/ytest_ypred_histo_kde.png) 
 
   **Figure 3**. Predicted and true target values in the test set     
 
