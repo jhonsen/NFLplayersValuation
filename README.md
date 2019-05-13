@@ -29,7 +29,7 @@ Photo [source](https://youtu.be/-dDVmTddM_k)
 
 ### Results
 - Given the available dataset (year:2000-2018), linear regression model can predict players' salaries on the fourth year of their career, with an error of ~1 million USD.    
-- Multivariate linear regression model performs the best among other models (tree-based regressors).
+- All linear regression models show comparable performance.
   
 > **Problem Solution:**
 >
@@ -42,8 +42,9 @@ Photo [source](https://youtu.be/-dDVmTddM_k)
 - [Workflow.md](./codes/Workflow.md) - a step-by-step procedure to scrape data and converting them to dataframe
   - [Step1_DataAcquisition.ipynb](./codes/Step1_DataAcquisition.ipynb) - notebook describing the process of web-scraping, converting data into datarames and data pre-processing  
   - [ScrapeProcFunc.py](./codes/ScrapeProcFunc.py) - a library of python functions to webscrape player's information (statistics and salaries), to convert HTML into dataframes, and perform data-wrangling prior to machine learning
-- [EDA-4th.ipynb](./codes/EDA-4th.ipynb) - initial exploratory data analysis of the wide-receivers 
-- [Engineering-and-modeling-4th.ipynb](./codes/Engineering-Modeling-4th.ipynb) - notebook describing feature engineering and predictive modeling
+- [Step2_EDA.ipynb](./codes/Step2_EDA.ipynb) - initial exploratory data analysis of the wide-receivers 
+- [Step3_Engineering_Selection.ipynb](./codes/Step3_Engineering_Selection.ipynb) - notebook describing feature engineering and selection of predictive models
+- [Step4_Evaluation.ipynb](./codes/Step4_Evaluation.ipynb) - notebook describing the evaluation of selected model
 - [Project_Presentation.pdf](./summary/Project_Presentation.pdf) - High-level overview of the project and results summary
 ---
 
