@@ -17,6 +17,8 @@
 Estimating the value of football players in terms of $$$ is an important task for NFL team managers.
 
 Each football player that gets drafted into the NFL gets a 4-year contract deal. As it gets closer to the end of this contract, players and managers (owners) have to renegotiate contract extensions. In such a case, **what is the fvalue of an NFL player on his 4th-year in the NFL?** 
+  
+Read the full story in [my Blog](https://jhonsen.github.io/2019/02/02/Player-Valuation/) 
 
 **Project Goal:**
 
